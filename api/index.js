@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const blogs = require('./api/blogsData.json'); 
+const blogs = require('./blogsData.json'); 
 const port = process.env.PORT || 3000;
 
 const app = express();
